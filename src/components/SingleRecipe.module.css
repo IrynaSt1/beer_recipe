@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  background: rgba(171, 177, 175, 0.072);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  gap: 10px;
+  width: 75%;
+  padding: 50px 20px;
+  margin: 3rem auto;
+  justify-content: space-around;
+}
+.recipe {
+  width: 70%;
+}
+
+.image img {
+  height: 20rem;
+  
+}
+.characteristics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box {
+  width: 5rem;
+  height: 3rem;
+  color: #136e6e;
+  border: 2px solid #136e6e;
+  background-color: transparent;
+  border-radius: 10px;
+  margin: 10px;
+}
+.box p {
+  text-align: center;
+}
+h3 {
+  color: #083434;
+}
+li {
+  color: darkslategrey;
+}
